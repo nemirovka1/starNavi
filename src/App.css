@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  width: 80%;
+}
+h1 {
+  margin: 20px 0;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.container-info {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+.grid-row {
+  display: flex;
+}
+.grid-cell {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid gray;
+}
+.grid-cell-small {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  display: inline-block;
+  border: 1px solid gray;
+}
+select {
+  margin: 10px;
+  width: 170px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 3px;
+}
+button{
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.hovered-info{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Задайте ширину вашей боковой панели */
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+li{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+
+  border: 1px solid orange;
+  background-color: #f3c58c;
+  color: #341f05;
+  border-radius: 8px;
+}
